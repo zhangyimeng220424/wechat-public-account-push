@@ -26,7 +26,6 @@ const USER_CONFIG = {
       useTemplateId: 'Kz0yv0glu1PPdd8bVplovUkjps3-_tw85S1VYWNOjwM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-13',
-      birthday: '06-14',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -34,10 +33,10 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
        {
-          type: '生日', name: '小马', year: '2003', date: '07-13',
+          //type: '生日', name: '小马', year: '2003', date: '07-13',
         },
         {
-          type: '节日', name: '相恋纪念日', year: '2022', date: '04-24',
+         // type: '节日', name: '相恋纪念日', year: '2022', date: '04-24',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
