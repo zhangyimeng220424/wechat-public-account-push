@@ -21,9 +21,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小马',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oPU585gk3YnuMJw965pjBlnCHa9Y',
+      id: 'oPU585lFNRd6WJelFej8JxqP8Qmg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '4vtEQPq7-FAb8H207_O7lmXOuOHecQftptfPqQGoxdQ',
+      useTemplateId: 'Kz0yv0glu1PPdd8bVplovUkjps3-_tw85S1VYWNOjwM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-13',
       birthday: '06-14',
@@ -33,19 +33,19 @@ const USER_CONFIG = {
           type: '*生日', name: '小马', year: '2003', date: '06-14',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-       // {
-        //  type: '生日', name: '小马', year: '2003', date: '07-13',
-       // },
-        //{
-        //  type: '节日', name: '相恋纪念日', year: '2022', date: '04-24',
-      //  },
+       {
+          type: '生日', name: '小马', year: '2003', date: '07-13',
+        },
+        {
+          type: '节日', name: '相恋纪念日', year: '2022', date: '04-24',
+        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-04-24' },
         // 结婚纪念日
-        //{ keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
